@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+body{
+    padding:0;
+    margin:0;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding:0px;
+}
+
+.separator{
+    height: 3px;
+    width: 5%;
+    border:none;
+    box-shadow:none ;
+    background-color:rgb(28, 55, 80) ;
+}
+
+.header{
+    
+    background-color: rgb(238, 235, 231);
+    height:70px;
+    line-height: 70px;
+}
+
+
+.logo{
+    
+    color: rgb(28, 55, 80) ;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    color: rgb(28, 55, 80);
+    margin-right: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.menu a:hover{
+    color:rgb(28, 55, 80) ;
+}
+
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    top:40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: rgb(238, 235, 231);
+    text-shadow: 2px 2px 20px #000000;
+    font-family: 'Galada', cursive;
+    font-size: 50px;
+}
+
+.inner-banner .btn-custom{
+    background-color:rgb(28, 55, 80) ;
+    color: rgb(238, 235, 231);
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.inner-banner .btn-custom:hover{
+    background-color: rgb(111, 150, 236);
+}
+
+#about{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.about{
+    text-align: center;
+}
+
+article{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+p{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+
+h2{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+
+.about article{
+    margin-top: 10%;
+    text-align: justify;
+    margin-bottom: 10%;
+    
+    
+    
+
+}
+
+.about article h2{
+   
+
+}
+
+
+.portfolio {
+    background-color: rgb(28, 55, 80);
+    height: 900px;
+    
+}
+
+
+.portfolio .item-folio{
+    height: 400px;
+   
+
+}
+
+#Creations{
+    text-align: center;
+    background-color: rgb(238, 235, 231);
+    font-family: 'Ibarra Real Nova', serif;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+
+#formation{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.formation{
+    text-align: center;
+}
+
+
+
+
+.formation article{
+    margin-top: 10%;
+    text-align: justify;
+    margin-bottom: 10%;
+    padding-left:10% ;
+    
+    
+    
+
+}
+
+.formation article h2{
+   
+
+}
+
+
+
+#experience{
+    text-align: center;
+    margin-top: 5%;
+    background-color: rgb(28, 55, 80);
+   color: rgb(238, 235, 231); 
+}
+
+.experience{
+    text-align: center;
+   
+}
+
+
+
+
+.experience article{
+    margin-top: 10%;
+    text-align: justify;
+    margin-bottom: 10%;
+   
+    
+    
+    
+    
+
+}
+
+
+
+
+.experience article h2{
+    font-size: 26px;
+   
+
+}
+
+
+.experience2{
+    text-align: center;
+}
+
+
+
+
+.experience2 article{
+    margin-top: 0%;
+    text-align: justify;
+    margin-bottom: 10%;
+    
+    
+    
+    
+    
+
+}
+
+.experience2 article h2{
+    font-size: 26px;
+   
+
+}
+
+
+.footer{
+    background-color: rgb(28, 55, 80);
+    height: 600px;
+    color:rgb(238, 235, 231) ;
+}
+
+.footer p{
+    text-align: center;
+    color: black;
+    padding-top: 200px;
+}
+
+#contact {
+    text-align: center;
+    height: auto;
+}
+
+.formulaire{
+
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+
+input{
+    margin-bottom: 20px;
+    top: 50%;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 500px;
+    border:none;
+
+}
+
+
+input[type=email] {
+    height: 50px;
+    width: 500px;
+    border: none;
+
+}
+
+textarea{
+    height: 200px;
+    width: 1000px;
+    resize: vertical;
+
+}
+
+.btn-custom{
+    background-color: rgb(238, 235, 231) ;
+}
+
+.btn-custom:hover{
+    background-color: rgb(111, 150, 236);
+}
+
