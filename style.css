@@ -56,6 +56,7 @@ a, a:hover{
 .banner{
     width: 100%;
     max-width: 100%;
+    
 }
 
 .ban {
@@ -92,6 +93,10 @@ a, a:hover{
 
 .inner-banner .btn-custom:hover{
     background-color: rgb(111, 150, 236);
+}
+
+.inner-banner .btn-custom a{
+    color: rgb(238, 235, 231) ;
 }
 
 #about{
@@ -243,6 +248,15 @@ h2{
     
 
 }
+
+#expe h2 {
+    text-align: initial;
+}
+
+#expe2 h2{
+    text-align: initial;
+}
+
 
 .experience2 article h2{
     font-size: 26px;
